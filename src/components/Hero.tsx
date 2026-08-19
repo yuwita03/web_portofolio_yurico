@@ -153,6 +153,15 @@ export const Hero: React.FC<HeroProps> = ({ isDark }) => {
 
         {/* Hero CTA Button */}
         <div className="flex flex-col items-center gap-3">
+                    <a
+            id="hero-cta-btn"
+            href="https://drive.google.com/file/d/1DT2w4e3ZGwxwVJx_tNrsKXoMUa0dsXup/view?usp=sharing"
+            className="group relative inline-flex items-center gap-2.5 px-6 sm:px-8 py-3 sm:py-3.5 rounded-full bg-sky-500 hover:bg-sky-400 text-white font-medium text-xs sm:text-sm tracking-wider uppercase shadow-lg shadow-sky-500/30 hover:shadow-sky-400/50 hover:scale-105 active:scale-95 transition-all duration-300 focus:outline-hidden focus:ring-2 focus:ring-sky-300"
+          >
+            {/* <Terminal className="w-4 h-4 text-sky-100 group-hover:rotate-6 transition-transform" /> */}
+            <span>Download CV</span>
+            <ArrowDown className="w-4 h-4 text-sky-100 animate-bounce-slow" />
+          </a>
           <a
             id="hero-cta-btn"
             href="#projects"

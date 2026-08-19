@@ -72,7 +72,7 @@ export const PROJECTS: Project[] = [
     isFeatured: true,
     techStack: ['NestJS', 'PostgreSQL', 'Prisma', 'React', 'TypeScript', 'Tailwind CSS'],
     year: '2025',
-    githubUrl: 'https://github.com/yuta-dev/japanese-learning-platform',
+    githubUrl: 'https://github.com/yuwita03/Japanese-learning.git',
     // demoUrl: 'https://japanese-learning.example.com',
     metrics: ['Sub-50ms API Latency', 'Spaced Repetition Algorithm', '5,000+ Kanji DB'],
     highlights: [
