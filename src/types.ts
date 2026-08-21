@@ -9,7 +9,8 @@ export interface Project {
   isFeatured?: boolean;
   techStack: string[];
   year: string;
-  githubUrl: string;
+  githubUrlFe: string;
+  githubUrlBe: string;
   demoUrl?: string;
   metrics?: string[];
   highlights?: string[];

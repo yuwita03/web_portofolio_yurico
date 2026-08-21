@@ -131,13 +131,23 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
         <div className="flex flex-wrap items-center gap-3 pt-4 border-t border-slate-200 dark:border-slate-800">
           <a
             id="modal-github-link"
-            href={project.githubUrl}
+            href={project.githubUrlFe}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-slate-900 dark:bg-white text-white dark:text-slate-900 text-xs sm:text-sm font-semibold hover:opacity-90 transition-opacity"
           >
             <Github className="w-4 h-4" />
-            <span>View Source Code</span>
+            <span>Source Code FrontEnd</span>
+          </a>
+          <a
+            id="modal-github-link"
+            href={project.githubUrlBe}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-slate-900 dark:bg-white text-white dark:text-slate-900 text-xs sm:text-sm font-semibold hover:opacity-90 transition-opacity"
+          >
+            <Github className="w-4 h-4" />
+            <span>Source Code BackEnd</span>
           </a>
 
           {project.demoUrl && (

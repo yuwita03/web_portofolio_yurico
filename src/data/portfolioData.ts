@@ -72,7 +72,8 @@ export const PROJECTS: Project[] = [
     isFeatured: true,
     techStack: ['NestJS', 'PostgreSQL', 'Prisma', 'React', 'TypeScript', 'Tailwind CSS'],
     year: '2025',
-    githubUrl: 'https://github.com/yuwita03/Japanese-learning.git',
+    githubUrlFe: 'https://github.com/yuwita03/JapaneseLearning-fe.git',
+    githubUrlBe: 'https://github.com/yuwita03/Japanese-learning.git',
     // demoUrl: 'https://japanese-learning.example.com',
     metrics: ['Sub-50ms API Latency', 'Spaced Repetition Algorithm', '5,000+ Kanji DB'],
     highlights: [
@@ -95,7 +96,8 @@ export const PROJECTS: Project[] = [
     isFeatured: false,
     techStack: ['NestJS', 'React', 'MySQL', 'Prisma', 'Tailwind CSS'],
     year: '2025',
-    githubUrl: 'https://github.com/yuwita03/MVP-Ecommerce.git',
+    githubUrlFe: 'https://github.com/yuwita03/frontend-store.git',
+    githubUrlBe: 'https://github.com/yuwita03/MVP-Ecommerce.git',
     // demoUrl: 'https://ecommerce.example.com',
     metrics: ['ACID-compliant Cart', 'Role-based Auth', 'Webhook Pipeline'],
     highlights: [
@@ -117,7 +119,8 @@ export const PROJECTS: Project[] = [
     isFeatured: false,
     techStack: ['Express', 'MySQL', 'Vue', 'Node.js', 'JWT'],
     year: '2024',
-    githubUrl: 'https://github.com/yuwita03/perpustakaan.git',
+    githubUrlFe: 'https://github.com/yuwita03/perpustakaan.git',
+    githubUrlBe: 'https://github.com/yuwita03/perpustakaan.git',
     // demoUrl: 'https://library-system.example.com',
     metrics: ['Relational Schema', 'Automated Overdue Cron', 'Zero-leak Tokens'],
     highlights: [
@@ -139,7 +142,8 @@ export const PROJECTS: Project[] = [
   isFeatured: false,
   techStack: ['PHP', 'Laravel', 'Vite', 'Axios', 'MySQL'],
   year: '2025',
-  githubUrl: 'https://github.com/yuwita03/Project_store_by_campus.git',
+  githubUrlFe: 'https://github.com/yuwita03/Project_store_by_campus.git',
+  githubUrlBe: 'https://github.com/yuwita03/Project_store_by_campus.git',
   demoUrl: '',
   highlights: [
     'Product and inventory CRUD',
