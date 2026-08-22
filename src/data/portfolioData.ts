@@ -1,7 +1,8 @@
 import { Project, SkillCategory, JourneyMilestone } from '../types';
 
 export const PERSONAL_INFO = {
-  name: 'Nekoyu',
+  nickname: 'Nekoyu',
+  name: 'Yurico Widia Pranata',
   japaneseName: 'ユウタ',
   role: 'BACKEND / FULLSTACK DEVELOPER',
   tagline: 'Building web applications, APIs, and systems with curiosity.',

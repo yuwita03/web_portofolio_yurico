@@ -121,19 +121,33 @@ export const Hero: React.FC<HeroProps> = ({ isDark }) => {
         </div>
 
         {/* Main Name Heading */}
-        <div className="relative inline-block mb-3 sm:mb-4">
-          <h1
-            id="hero-name"
-            className="text-5xl sm:text-7xl md:text-8xl font-extrabold tracking-tight text-white drop-shadow-md leading-none font-['Poppins']"
-          >
-            {PERSONAL_INFO.name}
-          </h1>
+<div className="relative inline-block mb-3 sm:mb-4">
+  {/* Nama Panggilan (Headline utama) */}
+  <h1
+    id="hero-nickname"
+    className="text-5xl sm:text-7xl md:text-8xl font-extrabold tracking-tight text-white drop-shadow-md leading-none font-['Poppins']"
+  >
+    {PERSONAL_INFO.nickname}
+  </h1>
 
-          {/* Minimal aesthetic cat silhouette on title corner */}
-          {/* <div className="absolute -top-4 -right-5 sm:-top-5 sm:-right-7 text-sky-300/80 dark:text-sky-300/90 pointer-events-none transform rotate-12">
-            <Sparkles className="w-4 h-4 sm:w-5 sm:h-5 animate-pulse" />
-          </div> */}
-        </div>
+  {/* Nama Lengkap (Sub-headline) */}
+  <h2
+    id="hero-fullname"
+    className="text-xl sm:text-2xl md:text-3xl font-bold tracking-tight text-white/90 drop-shadow-sm leading-tight font-['Poppins'] mt-2 sm:mt-3"
+  >
+    {PERSONAL_INFO.name}
+  </h2>
+
+  {/* Tagline / Subtext */}
+  <p className="text-xs sm:text-sm text-sky-200/80 font-medium tracking-wide mt-1.5 italic">
+    Neko and Yurico = Nekoyu
+  </p>
+
+  {/* Aesthetic Sparkles Accent
+  <div className="absolute -top-3 -right-4 sm:-top-5 sm:-right-6 text-sky-300 pointer-events-none transform rotate-12">
+    <Sparkles className="w-4 h-4 sm:w-6 sm:h-6 animate-pulse" />
+  </div> */}
+</div>
 
         {/* Subtitle / Role */}
         <h2

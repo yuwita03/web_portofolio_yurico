@@ -15,7 +15,7 @@ export const ContactSection: React.FC = () => {
   return (
     <section
       id="contact"
-      className="relative z-50 -mt-8 sm:-mt-12 pt-16 sm:pt-24 pb-20 sm:pb-28 bg-white dark:bg-[#0c1220] rounded-t-[32px] sm:rounded-t-[48px] overlap-card transition-colors duration-500 border-t border-slate-100 dark:border-slate-800"
+      className="relative -mt-8 sm:-mt-12 pt-16 sm:pt-24 pb-20 sm:pb-28 bg-white dark:bg-[#0c1220] rounded-t-[32px] sm:rounded-t-[48px] overlap-card transition-colors duration-500 border-t border-slate-100 dark:border-slate-800"
     >
       {/* Background Japanese Watermark */}
       <div className="absolute bottom-6 right-8 text-[90px] sm:text-[130px] font-black text-slate-100/50 dark:text-slate-800/15 select-none pointer-events-none leading-none">
